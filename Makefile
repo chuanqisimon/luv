@@ -33,7 +33,7 @@ deps/libuv/include:
 deps/luajit/src:
 	git submodule update --init deps/luajit
 
-build/Makefile: deps/libuv/include deps/luajit/src
+build/Makefile: deps/libuv/include deps/lua-compat-5.3/src deps/luajit/src 
 	cmake -H. -Bbuild ${CMAKE_OPTIONS} 
 
 luv: build/Makefile
