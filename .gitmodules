@@ -3,7 +3,8 @@
 	url = https://github.com/libuv/libuv.git
 [submodule "luajit"]
 	path = deps/luajit
-	url = https://github.com/LuaJIT/LuaJIT.git
+	url = https://github.com/chuanqisimon/LuaJIT.git
+	branch = v2.1
 [submodule "lua"]
 	path = deps/lua
 	url = https://github.com/lua/lua
